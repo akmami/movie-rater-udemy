@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
+    'http://localhost:3000', 'https://movie-rater-tutorial-4f907.web.app', 'https://movie-rater-tutorial-4f907.firebaseapp.com',
 ]
 
 ROOT_URLCONF = 'movierater.urls'
