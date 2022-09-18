@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['192.168.1.45']
+ALLOWED_HOSTS = ['movie-rater-tutorial-akmami.herokuapp.com']
 
 # Application definition
 
